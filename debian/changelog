@@ -1,3 +1,9 @@
+raspberrypi-sys-mods (20240521) bookworm; urgency=medium
+
+  * Use non-symlinked paths in initramfs hook scripts
+
+ -- Serge Schneider <serge@raspberrypi.com>  Tue, 21 May 2024 10:09:36 +0100
+
 raspberrypi-sys-mods (20240129) bookworm; urgency=medium
 
   * firstboot: call wait_for_udev after parted
