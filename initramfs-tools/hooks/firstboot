@@ -17,8 +17,8 @@ esac
 
 . /usr/share/initramfs-tools/hook-functions
 
-copy_exec /usr/bin/lsblk /bin
-copy_exec /usr/sbin/parted /bin
-copy_exec /usr/sbin/resize2fs /bin
+copy_exec /bin/lsblk /bin
+copy_exec /sbin/parted /bin
+copy_exec /sbin/resize2fs /bin
 
 exit 0

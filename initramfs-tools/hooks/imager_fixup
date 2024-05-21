@@ -17,6 +17,6 @@ esac
 
 . /usr/share/initramfs-tools/hook-functions
 
-copy_exec /usr/bin/findmnt /bin
+copy_exec /bin/findmnt /bin
 
 exit 0
