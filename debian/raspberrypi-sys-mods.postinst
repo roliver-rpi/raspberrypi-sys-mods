@@ -17,6 +17,9 @@ case "${1}" in
             rmdir --ignore-fail-on-non-empty /etc/systemd/system/rc-local.service.d
         fi
     fi
+    if dpkg --compare-versions "${2}" lt-nl "20240527"; then
+      sed -i 's/^CONF_SWAPSIZE=100$/CONF_SWAPSIZE=200/' /etc/dphys-swapfile ||:
+    fi
     ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
