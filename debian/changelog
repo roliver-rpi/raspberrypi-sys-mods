@@ -1,3 +1,9 @@
+raspberrypi-sys-mods (20240527) bookworm; urgency=medium
+
+  * Increase default swap size to 200
+
+ -- Serge Schneider <serge@raspberrypi.com>  Mon, 27 May 2024 13:58:34 +0100
+
 raspberrypi-sys-mods (20240521) bookworm; urgency=medium
 
   * Use non-symlinked paths in initramfs hook scripts
