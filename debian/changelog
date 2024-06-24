@@ -1,3 +1,9 @@
+raspberrypi-sys-mods (20240624) bookworm; urgency=medium
+
+  * Simplify udev backlight rule
+
+ -- Serge Schneider <serge@raspberrypi.com>  Mon, 24 Jun 2024 16:02:58 +0100
+
 raspberrypi-sys-mods (20240619) bookworm; urgency=medium
 
   * sudoers.d: preserve DPKG_DEB_THREADS_MAX
