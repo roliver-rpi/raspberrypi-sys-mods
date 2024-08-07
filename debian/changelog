@@ -1,3 +1,9 @@
+raspberrypi-sys-mods (20240807) bookworm; urgency=medium
+
+  * Add udev rule for Raspberry Pi devices
+
+ -- Serge Schneider <serge@raspberrypi.com>  Wed, 07 Aug 2024 12:47:51 +0100
+
 raspberrypi-sys-mods (20240624) bookworm; urgency=medium
 
   * Simplify udev backlight rule
