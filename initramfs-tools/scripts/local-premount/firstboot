@@ -52,8 +52,11 @@ do_resize () {
 log_begin_msg "Resizing root filesystem...\n\nDepending on storage size and speed, this may take a while."
 
 get_variables
-do_resize
-
+if ! [ -b "${ROOT_DEV}5" ]; then
+  do_resize
+else
+  log_warning_msg "Resize skipped due to unexpected partition table"
+fi
 log_end_msg
 
 exit 0
