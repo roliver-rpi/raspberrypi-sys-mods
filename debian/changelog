@@ -1,3 +1,11 @@
+raspberrypi-sys-mods (20240902) bookworm; urgency=medium
+
+  * Rework get_fw_loc
+  * Skip resize when logical partition 5 is present
+  * Fix 60-dma-heap.rules linux,cma symlink
+
+ -- Serge Schneider <serge@raspberrypi.com>  Mon, 02 Sep 2024 12:50:12 +0100
+
 raspberrypi-sys-mods (20240807) bookworm; urgency=medium
 
   * Add udev rule for Raspberry Pi devices
