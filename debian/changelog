@@ -1,3 +1,9 @@
+raspberrypi-sys-mods (20240911) bookworm; urgency=medium
+
+  * Add gpiochip4 symlink
+
+ -- Serge Schneider <serge@raspberrypi.com>  Wed, 11 Sep 2024 15:31:08 +0100
+
 raspberrypi-sys-mods (20240902) bookworm; urgency=medium
 
   * Rework get_fw_loc
