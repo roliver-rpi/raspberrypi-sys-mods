@@ -20,5 +20,6 @@ esac
 copy_exec /bin/lsblk /bin
 copy_exec /sbin/parted /bin
 copy_exec /sbin/resize2fs /bin
+copy_exec /sbin/fstrim /bin
 
 exit 0
