@@ -1,3 +1,10 @@
+raspberrypi-sys-mods (20240923) bookworm; urgency=medium
+
+  * udev: Add systemd tags to drm devices
+  * Fix firstboot_fstrim permissions
+
+ -- Serge Schneider <serge@raspberrypi.com>  Mon, 23 Sep 2024 15:13:58 +0100
+
 raspberrypi-sys-mods (20240912) bookworm; urgency=medium
 
   * Run fstrim on first boot
